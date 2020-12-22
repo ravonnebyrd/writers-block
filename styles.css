@@ -15,15 +15,17 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
-    margin-top: 2.5%;
-    padding: 1em;
-    border: 1.5px solid #236084;
-    box-shadow: 1px 1px 1px 0px #49C7AB;
-    border-radius: 0 5% 5% 0;
+    width: 35%;
+    margin-top: 10%; 
+    padding: 3.2em; 
+    #border: 1.5px solid #236084;
+    #box-shadow: 1px 1px 1px 0px #49C7AB;
+    #border-radius: 0 5% 5% 0;
 }
 .childContainer{
     border-top: 1px solid #236084;
+    padding-top: 1em;
+    margin-top: 1em;
     width: 95%;
 }
 /*allowing space for error messages*/
@@ -41,7 +43,7 @@ input{
     appearance: none;
     width: 100%;
     margin-bottom: 1em;
-    padding: 3%;
+    padding: 4%;
     text-align: center;
 }
 input:invalid{
