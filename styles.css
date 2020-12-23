@@ -28,6 +28,7 @@ body{
     margin-top: 1em;
     width: 95%;
 }
+
 /*allowing space for error messages*/
 .form-group{
     margin: 1.5em;
@@ -54,6 +55,7 @@ input, input:valid, input:required{
     border:1.5px solid #236084;
     border-radius: 5%;
 }
+
 /* input focus styles*/
 input:focus, input:focus:valid, input:focus:invalid{
     outline: medium double #236084;
@@ -97,6 +99,15 @@ button{
 }
 button:hover button:active{
     outline: 1.5px solid #236084;
+}
+
+/*centering and styling Login and Signup Redirects*/
+.redirect{
+	text-align: center;
+}
+.redirect a{
+	color: #236084;
+	text-decoration: none;
 }
 /*valid message style
 .valid{
