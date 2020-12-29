@@ -88,7 +88,7 @@ function showErrorPass(){
     if (password.validity.valueMissing){
         passwordError.textContent = "Please choose a password.";
     } else if (password.validity.tooShort){
-        passwordError.textContent = 'Please enter at least 5 characters.';
+        passwordError.textContent = 'Please enter at least 8 characters.';
     } else if (password.validity.patternMismatch){
         passwordError.textContent = 'Include uppercase, lowercase, and a number.'
     }
