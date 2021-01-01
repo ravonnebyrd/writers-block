@@ -54,7 +54,7 @@
 		INDEX(postId(8)),
 		FOREIGN KEY username REFERENCES users(username),
 		FOREIGN KEY postId REFERENCES posts(postId));	
-	?>
+?>
 	
 		<p>Done</p>
 	</body>
