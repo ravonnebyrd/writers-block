@@ -5,5 +5,5 @@ Example form showing client-side validation using Javascript's constraint valida
 ## Demo
 <img src="./demo.gif" width=400><br>
 
-##Note
+## Note
 Writer's Block is a fantasy social media site where I can practice my web development skills.
