@@ -44,18 +44,12 @@ form.addEventListener('input', function(event){
 function showErrorUsername(){
 	if(username.validity.valueMissing){
 		usernameError.textContent = 'Please enter your username';
-	} else if (username.validity.tooShort){
-        usernameError.textContent = 'Please enter at least 4 characters.';
-    }
+	} 
 	usernameError.className = 'error';
 };
 function showErrorPass(){
     if (password.validity.valueMissing){
-        passwordError.textContent = "Please choose a password.";
-    } else if (password.validity.tooShort){
-        passwordError.textContent = 'Please enter at least 8 characters.';
-    } else if (password.validity.patternMismatch){
-        passwordError.textContent = 'Include uppercase, lowercase, and a number.'
-    }
+        passwordError.textContent = "Please enter password.";
+    } 
     passwordError.className = 'error';
 };
